@@ -224,7 +224,7 @@ span {
     background: var(--second-bg-color);
 }
 .portofolio h2 {
-    margin-bottom: 4rem;
+    margin: bottom 3rem;
 }
 
 .portofolio-contenu {
@@ -246,8 +246,8 @@ span {
     width: 100%;
     transition: .3s ease;
 
-.portofolio-box:hover img {
-transform: scale(1.1);
+.portofolio-box:hover {
+    transform: scale: (1.1);
 }
 
 .portofolio-box .portofolio-layer {
@@ -312,6 +312,8 @@ transform: translateY(0);
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+
 
 .contact form .input-box input,
 .contact form textarea {
